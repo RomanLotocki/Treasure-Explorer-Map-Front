@@ -1,0 +1,99 @@
+@media screen and (max-width: 549px) {
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1 {
+        padding-top: 20px;
+    }
+    }
+
+.wrapper {
+    margin: 20px;
+    font-family: 'Crimson Text', serif;
+    /*background: linear-gradient(#ce7e00, #FFFFFF);*/
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    font-family: 'Fascinate Inline', cursive;
+    color: #361640
+}
+
+.title-word {
+    animation: color-animation 4s linear;
+  }
+  
+  .title-word-1 {
+    --color-1: #da4d29;
+    --color-2: #231d1a;
+    --color-3: #ce7e00;
+  }
+  
+  .title-word-2 {
+    --color-1: #afa18c;
+    --color-2: #da4d29;
+    --color-3: #17494D;
+  }
+
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+
+.instruction {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#map {
+    height: 400px;
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 3em;
+    }
+    
+    .instruction {
+        font-size: 2em;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    footer {
+        font-size: 1.2em;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .credits {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .logoGithub {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .logoLinkedin {
+        display: inline-block;
+    }
+}
+
+  
