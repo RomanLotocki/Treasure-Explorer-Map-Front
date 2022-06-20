@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @media screen and (max-width: 549px) {
     .logo {
         display: block;
@@ -8,6 +10,11 @@
         padding-top: 20px;
     }
     }
+
+body.dark {
+    background-color: #1d1e22;
+    color: white;
+}
 
 .wrapper {
     margin: 20px;
@@ -28,6 +35,37 @@ h1 {
     font-family: 'Fascinate Inline', cursive;
     color: #361640
 }
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .checkbox:checked + .toggle {
+    background-color: #ffcb05;
+    box-shadow: none;
+  }
+  
+  .checkbox:checked + .toggle {
+    transform: rotateY(180deg);
+  }
+  
+  .checkbox:checked + .toggle ul {
+    display: none;
+  }
+  
+  .toggle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 50px;
+    box-shadow: -8px -7px inset #ffcb05;
+    position: relative;
+    cursor: pointer;
+    transition: all 300ms ease-in;
+    transform-style: preserve-3d;
+  }
 
 .title-word {
     animation: color-animation 4s linear;
@@ -99,5 +137,4 @@ h1 {
 .popupMap h1 {
     font-size: 2em;
 }
-
   
