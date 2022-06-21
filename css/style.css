@@ -176,12 +176,19 @@ h1 {
         display: inline-block;
         margin-right: 20px;
     }
+
     .logoLinkedin {
         display: inline-block;
     }
+
 }
 
 .popupMap h1 {
     font-size: 2em;
+}
+
+.popupMap img {
+  display: flex;
+  margin: auto;
 }
   
