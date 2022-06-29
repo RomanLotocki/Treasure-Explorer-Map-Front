@@ -1,6 +1,9 @@
 // Objet App : "module" qui gère toute l'application en appelant d'autres "modules"
 const app = {
 
+    apiRootUrl: "http://localhost:8082",
+    
+    
     // La méthode init est appelée par l'écouteur d'événement lorsque la page est totalement chargée.
     // On va mettre dedans tout le code à exécuter quand la page est chargée (très souvent ce sera des écouteurs d'événements)
     init: function() {
