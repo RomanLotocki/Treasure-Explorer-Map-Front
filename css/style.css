@@ -39,6 +39,12 @@ h1 {
     color: #361640
 }
 
+.dlmode {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
 .checkbox {
     opacity: 0;
     position: absolute;
@@ -154,14 +160,15 @@ h1 {
     h1 {
         font-size: 3em;
     }
-    
+    .dlmode {
+      margin: auto;
+    }
     .instruction {
         font-size: 2em;
         text-align: center;
         margin-top: 50px;
         margin-bottom: 50px;
     }
-
     footer {
         font-size: 1.2em;
         margin-top: 50px;
@@ -180,7 +187,6 @@ h1 {
     .logoLinkedin {
         display: inline-block;
     }
-
 }
 
 .popupMap h1 {
